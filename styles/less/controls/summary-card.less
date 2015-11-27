@@ -1,0 +1,25 @@
+@import "../colors.less";
+
+.summary-card{
+
+	color:white;
+	font-size: 20px;
+	font-family: 'Tahoma', sans-serif;
+
+	&.summary-card--pending{
+		background-color: @pending;
+	}
+
+	&.summary-card--completed{
+		background-color: @completed;
+	}
+
+	&.summary-card--cancelled{
+		background-color: @cancelled;
+	}
+
+	.summary-card__counter,
+	.summary-card__title{
+		display:block;
+	}
+}

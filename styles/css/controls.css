@@ -1,0 +1,24 @@
+.avatar{width:40px;height:40px;border-radius:50%}
+
+
+.calendar-header{display:table;width:100%}.calendar-header .calendar-header__current-interval,.calendar-header .calendar-header__interval-switch,.calendar-header .calendar-header__title{display:table-cell}.calendar-header .calendar-header__title{text-transform:uppercase}
+.calendar-row{display:table;width:100%}.calendar-row .calendar-row__cell{display:table-cell}
+.calendar-timer{background:#f2f2f2}.calendar-timer .calendar-timer__text{color:#ec583a}
+.calendar-header{background-color:#f2f2f2}
+.content{width:100%;min-height:100%;display:table}.content .content__main{display:table-cell;background-color:#fff}.content .content__side{display:table-cell;background-color:#c7d0d5;box-sizing:border-box;padding:40px 30px 0}
+
+
+.header-cell{font-family:Tahoma,sans-serif;font-weight:700;border:1px solid #f2f2f2}
+.header{width:100%;display:table;background-color:#93b1c6}.header .header__logo,.header .header__menu,.header .header__notifications,.header .header__profile{display:table-cell}
+
+.interval-switch{display:table}.interval-switch .interval-switch__item{display:table-cell}
+.logo{display:inline-block;color:#fff;font-size:50px;border:3px solid #fff;font-family:Tahoma}
+.menu{display:table}.menu .menu__item{display:table-cell}
+
+.person{display:table}.person .person__image,.person .person__name{display:table-cell;vertical-align:middle}.person .person__name{color:#93b1c6;font-family:Tahoma,sans-serif}.person.person--light .person__name{color:#fff}
+
+.recent-activities .recent-activities__contents,.recent-activities .recent-activities__title{font-family:Tahoma,sans-serif;display:block}.recent-activities .recent-activities__title{color:#93b1c6;text-transform:uppercase}
+.side-item{padding-top:15px}.side-item .side-item__title{padding-bottom:10px;font-family:Tahoma,sans-serif;text-transform:uppercase}
+.side{background-color:#c7d0d5}
+.summary-card{color:#fff;font-size:20px;font-family:Tahoma,sans-serif}.summary-card.summary-card--pending{background-color:#93b1c6}.summary-card.summary-card--completed{background-color:#9b9b9b}.summary-card.summary-card--cancelled{background-color:#ec583a}.summary-card .summary-card__counter,.summary-card .summary-card__title{display:block}
+.week-summary .week-summary__item{padding:5px 0}

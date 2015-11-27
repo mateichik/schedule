@@ -5,6 +5,10 @@
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link rel="stylesheet" href="lib/cssreset/reset.css" />
+    <link rel="stylesheet" href="lib/icomoon/style.css" />
+    <link rel="stylesheet" href="styles/css/common.css" />
+    <link rel="stylesheet" href="styles/css/controls.css" />
 
  
 
@@ -12,7 +16,7 @@
 <body>
    <div class="header">
       <span class="header__logo">
-        <div class="logo"></div>
+        <div class="logo">Logo</div>
       </span>
       <span class="header__menu">
         <ul class="menu">
@@ -27,14 +31,185 @@
           </li>
         </ul>
       </span>
-      <span class="header__notifications"></span>
-      <span class="header__profile"></span>
+      <span class="header__notifications">
+        <div class="notification">
+          <span class="notification__icon">
+            <span class="icon-mail"></span>
+          </span>
+          <span class="notification__counter"></span>
+        </div>
+      </span>
+      <span class="header__profile">
+        <div class="profile">
+          <span class="profile__person">
+            <div class="person person--light">
+              <span class="person__image">
+                <img class="avatar" src="images/avatar.jpg" />
+              </span>
+              <span class="person__name">Anna Rob</span>
+            </div>
+          </span>
+          <span class="profile__icon">
+            <span class="icon-triangle-down"></span>
+          </span>
+        </div>
+      </span>
    </div>
    <div class="content">
      <div class="content__main">
-       
+        <div class="calendar">
+           <div class="calendar__header">
+              <div class="calendar-header">
+                <span class="calendar-header__title">My Schedules</span>
+                <span class="calendar-header__current-interval">
+                  <div class="current-interval">
+                    <span class="current-interval__previous-interval">
+                      <span class="icon-triangle-left"></span>
+                    </span>
+                    <span class="current-interval__name">NOV 2015</span>
+                    <span class="current-interval__next-interval">
+                      <span class="icon-triangle-right"></span>
+                    </span>
+                  </div>
+                </span>
+                <span class="calendar-header__interval-switch">
+                  <ul class="interval-switch">
+                    <li class="interval-switch__item">
+                      <span class="interval-switch-item">Week</span>
+                    </li>
+                    <li class="interval-switch__item">
+                      <span class="interval-switch-item interval-switch-item--selected">Month</span>
+                    </li>
+                  </ul>
+                </span>
+              </div>
+           </div>
+           <div class="calendar__contents">
+             <div class="calendar-contents">
+               <div class="calendar-contents__grid">
+                 <div class="calendar-grid">
+                   <div class="calendar-grid__header">
+                     <div class="calendar-row">
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Clients</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Mon 1st</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Tue 2nd</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Wed 3rd</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Thur 4th</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Fri 5th</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Sat 6th</div>
+                        </span>
+                        <span class="calendar-row__cell">
+                          <div class="header-cell">Sun 7th</div>
+                        </span>
+                     </div>
+                   </div>
+                   <div class="calendar-grid__body">
+                     <div class="calendar-row">
+                       <span class="calendar-row__cell">
+                            <div class="person">
+                              <span class="person__image">
+                                <img class="avatar" src="images/avatar.jpg" />
+                              </span>
+                              <span class="person__name">Mary Kim</span>
+                            </div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                       <span class="calendar-row__cell">
+                            <div class="time-cell"></div>
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="calendar-contents__timer">
+                 <div class="calendar-timer">
+                   <span class="calendar-timer__icon">
+                     <span class="icon-bell"></span>
+                   </span>
+                   <span class="calendar-timer__text">Next job starts in 1 day 2:30 mins from now</span>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+        <div class="recent-activities">
+           <span class="recent-activities__title">Recent Activities</span>
+           <span class="recent-activities__contents"><span class="icon-checkmark"></span>You completed your work at Deriks home</span>
+        </div>
      </div>
      <div class="content__side">
+       <div class="side">
+         <div class="side__item">
+           <div class="side-item">
+             <div class="side-item__title">Filter</div>
+             <div class="side-item__content">
+               <div class="filter">
+                 <div class="filter-search">
+                    <input placeholder="Search..." />
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="side__item">
+           <div class="side-item">
+             <div class="side-item__title">Week summary</div>
+             <div class="side-item__content">
+               <div class="week-summary">
+                 <div class="week-summary__item">
+                   <div class="summary-card summary-card--pending">
+                     <span class="summary-card__counter">3</span>
+                     <span class="summary-card__title">Pending Jobs</span>
+                   </div>
+                 </div>
+                 <div class="week-summary__item">
+                    <div class="summary-card summary-card--completed">
+                       <span class="summary-card__counter">15</span>
+                       <span class="summary-card__title">Jobs Completed</span>
+                    </div>
+                 </div>
+                 <div class="week-summary__item">
+                    <div class="summary-card summary-card--cancelled">
+                       <span class="summary-card__counter">2</span>
+                       <span class="summary-card__title">Cancelled Jobs</span>
+                    </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       
        
      </div>
    </div>

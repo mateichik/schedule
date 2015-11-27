@@ -1,0 +1,23 @@
+@import "../colors.less";
+
+.person{
+	display:table;
+
+	.person__image,
+	.person__name{
+		display:table-cell;
+		vertical-align:middle;
+	}
+
+	.person__name{
+		color: @pending;
+		font-family: 'Tahoma', sans-serif;
+	}
+
+	&.person--light{
+
+		.person__name{
+			color:@background-light;
+		}
+	}
+}

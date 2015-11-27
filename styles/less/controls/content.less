@@ -1,0 +1,20 @@
+@import "../colors.less";
+
+.content{
+	width:100%;
+	min-height:100%;
+	display:table;
+
+
+	.content__main{
+		display:table-cell;
+		background-color: @background-light;
+	}
+
+	.content__side{
+		display:table-cell;
+		background-color: @background-dark;
+		box-sizing: border-box;
+		padding: 40px 30px 0 30px;
+	}
+}
